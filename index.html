@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.5/push.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +13,22 @@
         <div class="container_form">
             <form action="" id="formulario">
                 <h2 class="title">Registro de Actividades</h2>
+                <div class="container_input">
                 <label for="hora">hora Comienzo</label>
                 <input type="text" id="hora_comienzo" disabled>
+                </div>
+                <div class="container_input">
                 <label for="hora">hora Fin</label>
                 <input type="text" id="hora_fin">
+                </div>
+                <div class="container_input">
                 <label for="dia">dia</label>
                 <input type="text" id="dia">
+                </div>
+                <div class="container_input">
                 <label for="dia">Nombre de la Actividad</label>
                 <input type="text" id="actividad">
+                </div>
                 <input type="submit" value="Guardar Datos" class="btn">
             </form>
         </div>
@@ -60,5 +69,5 @@
     </div>
     
 </body>
-<script src="app.js"></script>
+<script src="index.js"></script>
 </html>
